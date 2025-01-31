@@ -13,6 +13,9 @@
         <mxCell id="lVf7r1gNDbLR3QDX_skh-10" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="h5J8hejiHo8uM39ta9dK-4">
           <mxGeometry x="61" y="61" width="78" height="78" as="geometry" />
         </mxCell>
+        <mxCell id="lVf7r1gNDbLR3QDX_skh-16" value="踏み台インスタンス" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h5J8hejiHo8uM39ta9dK-4">
+          <mxGeometry x="30" y="34" width="150" height="27" as="geometry" />
+        </mxCell>
         <mxCell id="lVf7r1gNDbLR3QDX_skh-1" value="Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#00A4A6;fillColor=#E6F6F7;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" vertex="1" parent="h5J8hejiHo8uM39ta9dK-1">
           <mxGeometry x="280" y="40" width="200" height="200" as="geometry" />
         </mxCell>
@@ -64,8 +67,11 @@
             <mxPoint x="429" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lVf7r1gNDbLR3QDX_skh-14" value="DB操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h5J8hejiHo8uM39ta9dK-1">
+          <mxGeometry x="140" y="386" width="70" height="27" as="geometry" />
+        </mxCell>
         <mxCell id="lVf7r1gNDbLR3QDX_skh-6" value="Grafana Cloud" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="140" width="240" height="320" as="geometry" />
+          <mxGeometry x="880" y="320" width="240" height="140" as="geometry" />
         </mxCell>
         <mxCell id="lVf7r1gNDbLR3QDX_skh-7" value="PDC Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="394" width="80" height="40" as="geometry" />
@@ -83,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lVf7r1gNDbLR3QDX_skh-13" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="600" width="60" height="100" as="geometry" />
+          <mxGeometry x="150" y="600" width="60" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
